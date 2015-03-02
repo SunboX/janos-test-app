@@ -73,10 +73,10 @@ window.addEventListener('ready', () => {
                                     body = 'done: pin 2 - ' + pin2value;
                                     setTimeout(function(){
                                         pin2.writeDigital(pin2value);
-                                    }, 100);
+                                    }, 50);
                                     setTimeout(function(){
                                         pin2.writeDigital(pin2value);
-                                    }, 500);
+                                    }, 100);
                                     break;
 
                                 case 'pin3':
@@ -96,10 +96,10 @@ window.addEventListener('ready', () => {
                                     body = 'done: pin 3 - ' + pin3value;
                                     setTimeout(function(){
                                         pin3.writeDigital(pin3value);
-                                    }, 100);
+                                    }, 50);
                                     setTimeout(function(){
                                         pin3.writeDigital(pin3value);
-                                    }, 500);
+                                    }, 100);
                                     break;
                                 }
                             }
